@@ -8,6 +8,7 @@ struct Rect
 {
     Vector2 corner1;
     Vector2 corner2;
+    bool isPartition;
 };
 
 struct Object

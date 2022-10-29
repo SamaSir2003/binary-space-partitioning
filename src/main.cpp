@@ -105,7 +105,7 @@ int main()
                 Vector2 pos = GetMousePosition();
                 objectVec.push_back(Object{
                     player.pos,
-                    Vector2{100, 100},
+                    Vector2{100 * GetFrameTime(), 100 * GetFrameTime()},
                 });
             }
 
@@ -116,7 +116,6 @@ int main()
             }
 
             // run bsp tree and create partitions
-            // run simulation
         }
 
         // Draw

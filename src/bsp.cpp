@@ -1,7 +1,7 @@
 #include "bsp.hpp"
 
-Node *root = new Node{
-    nullptr,
-    nullptr,
-    Rect{0, 0},
-};
+Node *root = nullptr;
+
+void addNode(Node *left, Node *right, Rect data)
+{
+}
